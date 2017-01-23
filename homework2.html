@@ -28,7 +28,7 @@
     <form>
     
       <fieldset>
-      <legend>basic information</legend>
+      <legend>Basic information</legend>
       <label>First Name:<input type="text" name="name" placeholder="Joe" required> </label>
       <label>State: <input type="text" name="state" placeholder="WA" required> </label>
       <label>Age:<input type="text" name="age" placeholder="102" required> </label>
@@ -52,15 +52,24 @@
       <legend>How Do You Incorporate Responsive Design In Your Webpage?</legend>
       <textarea name= "responsive inquiry" cols=150 rows=10></textarea>
       
-      <legend>Do you wish to be contacted for responsive design workshops?</legend>
-      <label>YES!!!<input type="radio" name="contactme" value="yes"></label>
-      <label>Don't you dare.<input type="radio" name="contactme" value="no"></label>
+       
+    <legend>Do you wish to be contacted for responsive design workshops?</legend>
+    <div class="radio">
+      <label><input type="radio"  name="optionsRadios" id="optionsRadios1" value="yes">Yes!</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="no">No Thanks</label>
+    </div>
+      
       
       <legend>Well Give Us Your Email Anyway</legend>
       <label>Email:<input type="text" name="email" required> </label>
+      
+      <input type="submit" value="send" name="submit">
     
     </form>
   
+      
   </body>
 
 
