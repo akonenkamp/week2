@@ -7,3 +7,7 @@ form {
   padding-top: 15px;
 }
 
+input[type=text] {
+  border: 1px solid purple;
+  border-radius: 4px;
+}
