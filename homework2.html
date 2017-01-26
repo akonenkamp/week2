@@ -27,13 +27,14 @@
     
     <form>
     
-      <fieldset>
+    <fieldset>
       <legend>Basic information</legend>
       <label>First Name:<input type="text" name="name" placeholder="Joe" required> </label>
       <label>State: <input type="text" name="state" placeholder="WA" required> </label>
       <label>Age:<input type="text" name="age" placeholder="102" required> </label>
     </fieldset>
     
+    <fieldset>
       <legend>What Coding Languages Do You Use?</legend>
       <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" name="Language" value="HTML"> HTML
       </label>
@@ -43,29 +44,36 @@
       </label>
       <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox4" name="Language" value="java">Java
       </label>
-      <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox4" name="Language" value="other">Other
+      <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox5" name="Language" value="other">Other
       </label>
+    </fieldset>
       
       
-      
+    <fieldset>
       <legend>Other languages Not Mentioned?</legend>
       <textarea name= "added languages" cols=150 rows=10></textarea>
-      
+    </fieldset>
+    
+    <fieldset>
       <legend>How Do You Incorporate Responsive Design In Your Webpage?</legend>
       <textarea name= "responsive inquiry" cols=150 rows=10></textarea>
+    </fieldset>
       
-       
-    <legend>Do you wish to be contacted for responsive design workshops?</legend>
+    
+    <fieldset>
+      <legend>Do you wish to be contacted for responsive design workshops?</legend>
     <div class="radio">
       <label><input type="radio"  name="optionsRadios" id="optionsRadios1" value="yes">Yes!</label>
     </div>
     <div class="radio">
       <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="no">No Thanks</label>
     </div>
+    </fieldset>
       
-      
+    <fieldset>
       <legend>Well Give Us Your Email Anyway</legend>
       <label>Email:<input type="text" name="email" required> </label>
+    </fieldset>
       
       <input type="submit" value="Thank You!" name="submit">
     
